@@ -1,0 +1,120 @@
+@function torem($px) {
+    @return $px / 108px * 1rem;
+}
+body{
+	background: #eee;
+}
+
+/*顶部栏目 start*/
+header{
+	display: flex;
+	align-items: center;
+	height: torem(126.7px);
+	color: #fff;
+	background: rgb(35, 149, 255);
+}
+header i{
+	height: torem(126px);
+	width: 12%;
+	line-height: torem(126px);
+	text-align: center;
+}
+header .iconfont{
+	font-size: torem(50px);
+}
+header h3{
+	width: 88%;
+	text-align: center;
+	font-size: torem(54px);
+	font-weight: bold;
+}
+
+/*顶部栏目 end*/
+
+/*列表 start*/
+section {
+	background: #fff;
+	padding:torem(40px) torem(8px) torem(30px) torem(40px);
+}
+section .order-info{
+	display: flex;
+	padding-left: torem(20px);
+}
+section .order-info .text{
+	display: flex;
+	justify-content: space-between;
+}
+section .order-info .text h3{
+	padding-left: torem(20px);
+	font-size: torem(44px);
+	font-weight: bold;
+}
+section .order-info .text h3 span{
+	margin:0 torem(20px);
+}
+section .order-info .text p{
+	color: rgb(81, 143, 223);
+}
+section .order-info .time{
+	display: flex;
+	justify-content: space-between;
+	padding-left: torem(20px);
+	margin-top: torem(10px);
+}
+section .order-info .time span{
+	color: rgb(81, 143, 223);
+}
+section .price{
+	display: flex;
+	justify-content: space-between;
+	padding-left: torem(180px);
+}
+section .price h3{
+	font-weight: bold;
+	font-size: torem(50px);
+	color: #999;
+}
+section .price span{
+	padding-right: torem(20px);
+}
+/*列表 end*/
+/*底部导航 start*/
+.footerTab {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  height: 1.33333rem;
+  width: 10rem;
+  background: #fff; }
+
+.footerTab a {
+  width: 25%;
+  text-align: center;}
+
+.footerTab a i {
+  display: inline-block;
+  height: 0.52778rem;
+  width: 0.52778rem;
+  text-align: center;}
+.footerTab a .icon-eleme{
+	margin-right: torem(20px);
+	font-size: torem(90px);
+	color: #aaa;
+}
+.footerTab a .icon-found{
+	margin-bottom: torem(8px);
+	font-size: torem(50px);
+	color: #aaa;
+}
+.footerTab a .icon-order{
+	margin-bottom: torem(8px);
+	font-size: torem(50px);
+	color: #aaa;
+}
+.footerTab a .icon-mine{
+	margin-bottom: torem(8px);
+	font-size: torem(50px);
+	color: #aaa;
+}
+/*底部导航 end*/

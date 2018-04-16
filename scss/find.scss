@@ -1,0 +1,245 @@
+@function torem($px) {
+    @return $px / 75px * 1rem;
+}
+*{
+	font-family: 'Helvetica Neue',Tahoma,Arial,PingFangSC-Regular,'Hiragino Sans GB','Microsoft Yahei',sans-serif;
+}
+/*头部header--start*/
+.header{
+	position: fixed;
+	width: 100%;
+	z-index:3;
+	top: torem(0px);
+	display: flex;
+    justify-content: center;
+	height: torem(88px);
+	align-items: center;
+	background-color: #0093FF;
+	color: white;
+}
+.header i{
+	position: absolute;
+	left:torem(18px);
+	font-size:torem(36px);
+	height: torem(40px);
+}
+.header span{
+	height: torem(40px);
+	font-size:torem(40px);
+	font-weight:700;
+}
+/*头部header--end*/
+/*top-banner start*/
+.top-banner{
+	display: flex;
+	padding-top:torem(88px);
+	justify-content: center;
+}
+.top-banner img{
+	height: torem(420px);
+}
+/*top-banner end*/
+/*first-section start*/
+
+.first-section{
+	display: flex;
+	flex-wrap: wrap;
+	border-top: torem(1px) solid #EEEEEE;
+	border-bottom: torem(1px) solid #EEEEEE;
+}
+.first-section .item{
+	 display: flex;
+	 justify-content: center;
+	 width:50% ;
+	 outline:torem(1px) solid #EEEEEE;
+     height:torem(160px);
+}
+/*.first-section .item:nth-child(odd){
+	 outline:torem(1px) solid #EEEEEE;
+}*/
+.first-section .item-all{
+	 display: flex;
+	 justify-content: space-between;
+	 align-items: center;
+     height:100%;
+	 width: 80%;
+	 font-weight: 400;
+}
+.first-section .item-all  .left p:nth-child(1){
+    font-size: torem(32px);
+    padding-bottom: torem(14px);
+}
+.first-section .item-all  .left p:nth-child(2){
+	 color: #999;
+    font-size: torem(24px);
+}
+.first-section .item-all .right{
+    height:torem(90px);
+}
+      /*单独设置第一个p标签的颜色*/
+ .first-section  .item:nth-child(1) p:nth-child(1){
+ 	color: rgb(255, 153, 0);
+ } 
+  .first-section  .item:nth-child(2) p:nth-child(1){
+ 	color: rgb(245, 120, 93);
+ } 
+  .first-section  .item:nth-child(3) p:nth-child(1){
+ 	color: rgb(27, 169, 225);
+ }  
+ .first-section  .item:nth-child(4) p:nth-child(1){
+ 	color: rgb(27, 169, 225);
+ }  
+ .first-section  .item:nth-child(5) p:nth-child(1){
+ 	color: rgb(245, 120, 93);
+ }  
+ .first-section  .item:nth-child(6) p:nth-child(1){
+ 	color: rgb(255, 153, 0);
+ }  
+/*first-section start*/
+/*second-section start*/
+.second-section{
+  display: block;
+  background-color: #F4F7F4;
+  border-top:torem(1px) solid #EEEEEE;
+  border-bottom:torem(1px) solid #EEEEEE;
+  height: torem(195px);
+}
+/*second-section start*/
+/*third-section start*/
+.third-section{
+	display: flex;
+	align-items: center;
+	margin-top:torem(36px); 
+	font-size:torem(36px);
+	justify-content: center;
+	height: torem(40px);
+	font-weight: 700;
+    color: #333;
+}
+/*third-section start*/
+/*forth-section start*/
+.forth-section{
+	text-align: center;
+	color: #999;
+	padding-bottom:torem(22px); 
+	font-size:torem(22px);
+	font-weight: 400;
+}
+/*forth-section end*/
+/*five-section start*/
+.five-section{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+	width:torem(730px);
+}
+.five-section .item{
+	display: flex;
+	justify-content: center;
+	width: 50%;
+    height:torem(530px);
+    margin-top: torem(20px);
+ }
+.five-section .item  .container{
+	border:torem(1px) solid #cccccc;
+    height:torem(530px);
+    width:torem(345px);
+}
+.five-section .item  .container img{
+	width: torem(345px);
+	height: torem(345px);
+}
+.five-section .item  .container h4{
+	text-indent: torem(20px);
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-weight: 700;
+    font-size: torem(30px);
+}
+.five-section .item  .container .container-sele{
+	text-indent: torem(20px);
+    margin-top: .8vw;
+    color: #666;
+    font-size: torem(20px);
+}
+.five-section .item  .container .container-price{
+	border-bottom: torem(1px) dashed  #CCCCCC;
+	width: torem(300px);
+	margin-left: torem(24px);
+    margin-top: .8vw;
+    color: #666;
+}
+.five-section .item  .container .container-price span:nth-child(1){
+	text-indent: torem(20px);
+    color: #ff6000;
+    font-size: torem(20px);
+}
+.five-section .item  .container .container-price span:nth-child(2){
+	font-weight: 700;
+	text-indent: torem(20px);
+    color: #ff6000;
+   font-size: torem(30px);
+}
+.five-section .item  .container .container-price span:nth-child(3){
+	text-indent: torem(20px);
+    color: #666;
+    font-size: torem(20px);
+}
+.five-section .item  .container .container-say{
+    margin-top:  torem(20px);
+	text-indent: torem(20px);
+    color: #B8B8B8;
+    font-size: torem(20px);
+}
+/*five-section end*/
+/*six-section end*/
+.seeAll{
+	padding-top: torem(20px);
+	padding-bottom: torem(20px);
+	font-size: torem(26px);
+	color: #999;
+    text-align: center;
+}
+/*six-section end*/
+/*section-box start*/
+.section-box{
+	height: torem(20px);
+	background-color: #F5F5F5;
+}
+/*section-box end*/
+.footersection-box{
+	height: torem(140px);
+	background-color: #F5F5F5;
+}
+/*seven-section start*/
+.seven-section{
+   display: flex;
+   width: torem(666px);
+   margin: 0 auto;
+}
+.seven-section .item{
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-around; 
+	width:torem(222px);
+	height:torem(332px);
+}
+.seven-section .item img{
+	height: torem(222px);
+}
+.seven-section .item p{
+    font-size: torem(26px);
+    font-weight: 400;
+}
+.seven-section .item div{
+    font-size: torem(26px);
+    color: #ff5339;
+    font-weight: 400;
+}
+.seven-section .item div span:nth-child(1){
+	font-size:  torem(20px);
+}
+.seven-section .item div span:nth-child(2){
+	font-size:  torem(30px);
+}
+/*seven-section end*/

@@ -1,0 +1,273 @@
+@function torem($px) {
+    @return $px / 108px * 1rem;
+}
+
+/*顶部栏目 start*/
+header{
+	display: flex;
+	align-items: center;
+	height: torem(126.7px);
+	color: #fff;
+	background: rgb(35, 149, 255);
+}
+header i{
+	height: torem(126px);
+	line-height: torem(126px);
+	width: 12%;
+	text-align: center;
+}
+header .iconfont{
+	font-size: torem(48px);
+}
+header h3{
+	width: 88%;
+	text-align: center;
+	font-size: torem(54px);
+	font-weight: bold;
+}
+/*顶部栏目 end*/
+/*顶部图片 start*/
+.topImage img{
+	height: torem(611.8px);
+	width: 100%;
+}
+/*顶部图片 end*/
+/*导航 start*/
+.nav{
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: torem(30.2px);
+	border-top: 2px solid #eee;
+}
+.nav a{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: torem(229.4px);
+	width: 41.8%;
+	padding: 0 torem(43.2px);
+	border-right: 1px solid #ededed;
+	border-bottom: 1px solid #ededed;
+}
+.nav a img{
+	height: torem(129px);
+	width: torem(129px);
+}
+.nav a h3{
+	margin-bottom: torem(20px);
+	color: rgb(255, 153, 0);
+	font-size: torem(46px);
+}
+.nav a p{
+	color: #999;
+}
+/*导航 end*/
+/*今天吃啥图片 start*/
+.eat{
+	background: #eee;
+	padding: torem(20px) 0;
+}
+.eat img{
+	width: 100%;
+}
+/*今天吃啥图片 end*/
+/*为你推荐 start*/
+.recommend {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: torem(62px);
+	padding-top: torem(56px);
+	font-size: torem(54px);
+	font-weight: bold;
+}
+.recommend span{
+	height: torem(6px);
+	width: torem(50px);
+	background: #333;
+}
+.recommend .left{
+	position: relative;
+}
+.recommend .right{
+	position: relative;
+	margin-left: torem(20px);
+}
+
+.recommend .left i,
+.recommend .right i{
+	display: inline-block;
+	position: absolute;
+	top: torem(-5px);
+	height: torem(16px);
+	width: torem(16px);
+	background: #333;
+	border-radius: 50%;
+}
+.recommend .left .left-ball{
+	right: 0;
+}
+.recommend .thumb{
+	height: torem(47px);
+	line-height: torem(47px);
+	width: torem(47px);
+	margin-right: torem(20px);
+	background: #fff;
+}
+.recommend .thumb .icon-zan,
+.recommend .thumb .icon-zhong,
+.recommend .thumb .icon-jingxuan{
+	font-size: torem(40px);
+	color: rgb(241, 44, 44);
+	margin-left: torem(10px);
+}
+.recommend .right .right-ball{
+	left: 0;
+}
+.intro-content{
+	text-align: center;
+	margin-top: torem(6px);
+	padding-bottom: torem(20px);
+}
+.list{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding: 0 torem(10px) torem(43.2px);
+}
+.list li{
+	width: torem(496px)
+}
+.list li img{
+	width: torem(496px);
+	height: torem(494px);
+}
+.list li .list-content{
+	padding: torem(8px) torem(18px);
+	border: 1px solid #ddd;
+	border-top: none;
+}
+.list li .list-content h3{
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	font-size: torem(40px);
+	font-weight: bold;
+	color: #333;
+}
+.list li .list-content .sale{
+	margin: torem(8px) 0;
+	font-size: torem(28px);
+	color: #333;
+}
+.list li .list-content .price{
+	color: #ff6000;
+}
+.list li .list-content .price .yuan{
+	font-size: torem(50px);
+	font-weight: bold;
+}
+.list li .list-content .details{
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	line-height: torem(94px);
+	font-size: torem(30px);
+	color: #999;
+}
+.list li .list-content .details i{
+	display: inline-block;
+	height:torem(28.8px);
+	width: torem(28.8px);
+	margin-right: torem(8px);
+	font-size: torem(30px);
+}
+.more{
+	padding-bottom: torem(60px);
+	text-align: center;
+	color: #999;
+}
+/*为你推荐 end*/
+/*边界 start*/
+.backColor{
+	height: torem(30px);
+	background: #ddd;
+}
+/*边界 end*/
+/*限时好礼 start*/
+/*限时好礼 start*/
+.limit{
+	display: flex;
+	padding: torem(34px) 0 torem(60px) torem(43.2px);
+	margin-bottom: torem(30px);
+}
+.limit a {
+	position: relative;
+	width: 33%;
+}
+.limit a img{
+	height: torem(316px);
+	width: torem(319px);
+}
+.limit a h4{
+	margin-bottom: torem(40px);
+}
+.limit a p .gold{
+	color: #ff5339
+}
+.limit a .sign{
+	position: absolute;
+	left: 0;
+	top: 0;
+	padding: torem(8px) torem(6px);
+	font-size: torem(30px);
+	color: #fff;
+	background: #413d3c;
+}
+/*限时好礼 end*/
+/*底边 start*/
+.bottomColor{
+	height: torem(200px);
+	background: #eee;
+}
+/*底边 end*/
+/*底部导航 start*/
+.footerTab {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  height: 1.33333rem;
+  width: 10rem;
+  background: #fff; }
+
+.footerTab a {
+  width: 25%;
+  text-align: center;}
+
+.footerTab a i {
+  display: inline-block;
+  height: 0.52778rem;
+  width: 0.52778rem;
+  text-align: center;}
+.footerTab a .icon-eleme{
+	margin-right: torem(20px);
+	font-size: torem(90px);
+	color: #aaa;
+}
+.footerTab a .icon-found{
+	margin-bottom: torem(8px);
+	font-size: torem(50px);
+	color: #aaa;
+}
+.footerTab a .icon-order{
+	margin-bottom: torem(8px);
+	font-size: torem(50px);
+	color: #aaa;
+}
+.footerTab a .icon-mine{
+	margin-bottom: torem(8px);
+	font-size: torem(50px);
+	color: #aaa;
+}
+/*底部导航 end*/

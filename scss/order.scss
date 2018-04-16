@@ -1,0 +1,100 @@
+@function torem($px) {
+    @return $px / 75px * 1rem;
+}
+*{
+	font-family: 'Helvetica Neue',Tahoma,Arial,PingFangSC-Regular,'Hiragino Sans GB','Microsoft Yahei',sans-serif;
+}
+/*头部header--start*/
+body{
+	background-color: #F5F5F5;
+}
+.header{
+	position: fixed;
+	top: 0;
+	z-index: 3;
+	display: flex;
+    justify-content: center;
+	height: torem(88px);
+	width:100%;
+	align-items: center;
+	background-color: #0093FF;
+	color: white;
+}
+.header i{
+	position: absolute;
+	left:torem(18px);;
+	font-size:torem(36px);
+	height: torem(40px);
+}
+.header span{
+	height: torem(40px);
+	font-size:torem(40px);
+	font-weight:700;
+}
+/*头部header--end*/
+/*图片 start*/
+.img{
+	padding-top: torem(88px);
+	display: flex;
+    justify-content: center;
+}
+.img img{
+	display: block;
+	margin-top: torem(200px);
+    width: torem(400px);
+    height: torem(400px);
+}
+/*图片 end*/
+/*文字 start*/
+h3{
+	color: #6a6a6a;
+    font-weight: 400;
+    font-size: torem(34px);
+    text-align: center;
+    padding:torem(20px) torem(0px) torem(20px) torem(0px);
+}
+/*文字 end*/
+/*按钮 start*/
+  button{
+  	display: block;
+  	width: torem(240px);
+  	height: torem(80px);
+  	line-height: torem(80px);
+  	font-size:1.2em;
+  	margin: 0 auto;
+  	border-radius: torem(4px);
+  	background-color: #56D176;
+  	text-align: center;
+  	border: 0;
+  	color: white;
+  	font-family: inherit;
+  }
+/*按钮 end*/
+/*thirdsection--start*/
+.thirdsection{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height:torem(88px);
+	padding-left:torem(23px);
+	padding-right:torem(20px);
+	font-size: torem(32px);
+	color:#333;
+}
+.thirdsection div i{
+   font-size:torem(30px);
+   color: #4AA5F0;
+}
+.thirdsection i{
+   font-size:torem(30px);
+}
+.thirdsection .icon-5gouwudai{
+	background-color: #94D94A;
+}
+.zhanweisecond{
+	height:torem(240px);
+	background-color:#f5f5f5;
+}
+/*thirdsection--end*/
+
+

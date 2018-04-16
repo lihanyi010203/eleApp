@@ -1,0 +1,33 @@
+@function torem($px) {
+    @return $px / 75px * 1rem;
+}
+
+/*底部footer start*/
+       .footer{
+         position: fixed;
+         bottom:0;
+         display: flex;
+         width: 100%;
+         height:torem(100px);
+         background-color: white;
+         box-shadow: 0 -0.266667vw 0.533333vw rgba(0,0,0,.1);
+       }
+       .footer a{
+         flex:20%;
+         text-align: center;
+       }
+       .footer a i{
+         display: inline-block;
+         margin-top: torem(17px);
+         font-size: torem(40px); 
+       }
+       .footer a span:nth-child(2){
+         display: block;
+         font-size:torem(24px);
+       }
+       
+/*底部footer end*/
+
+
+
+

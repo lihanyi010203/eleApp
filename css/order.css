@@ -1,0 +1,98 @@
+@charset "UTF-8";
+* {
+  font-family: 'Helvetica Neue',Tahoma,Arial,PingFangSC-Regular,'Hiragino Sans GB','Microsoft Yahei',sans-serif; }
+
+/*头部header--start*/
+body {
+  background-color: #F5F5F5; }
+
+.header {
+  position: fixed;
+  top: 0;
+  z-index: 3;
+  display: flex;
+  justify-content: center;
+  height: 1.17333rem;
+  width: 100%;
+  align-items: center;
+  background-color: #0093FF;
+  color: white; }
+
+.header i {
+  position: absolute;
+  left: 0.24rem;
+  font-size: 0.48rem;
+  height: 0.53333rem; }
+
+.header span {
+  height: 0.53333rem;
+  font-size: 0.53333rem;
+  font-weight: 700; }
+
+/*头部header--end*/
+/*图片 start*/
+.img {
+  padding-top: 1.17333rem;
+  display: flex;
+  justify-content: center; }
+
+.img img {
+  display: block;
+  margin-top: 2.66667rem;
+  width: 5.33333rem;
+  height: 5.33333rem; }
+
+/*图片 end*/
+/*文字 start*/
+h3 {
+  color: #6a6a6a;
+  font-weight: 400;
+  font-size: 0.45333rem;
+  text-align: center;
+  padding: 0.26667rem 0rem 0.26667rem 0rem; }
+
+/*文字 end*/
+/*按钮 start*/
+button {
+  display: block;
+  width: 3.2rem;
+  height: 1.06667rem;
+  line-height: 1.06667rem;
+  font-size: 1.2em;
+  margin: 0 auto;
+  border-radius: 0.05333rem;
+  background-color: #56D176;
+  text-align: center;
+  border: 0;
+  color: white;
+  font-family: inherit; }
+
+/*按钮 end*/
+/*thirdsection--start*/
+.thirdsection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 1.17333rem;
+  padding-left: 0.30667rem;
+  padding-right: 0.26667rem;
+  font-size: 0.42667rem;
+  color: #333; }
+
+.thirdsection div i {
+  font-size: 0.4rem;
+  color: #4AA5F0; }
+
+.thirdsection i {
+  font-size: 0.4rem; }
+
+.thirdsection .icon-5gouwudai {
+  background-color: #94D94A; }
+
+.zhanweisecond {
+  height: 3.2rem;
+  background-color: #f5f5f5; }
+
+/*thirdsection--end*/
+
+/*# sourceMappingURL=order.css.map */

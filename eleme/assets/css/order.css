@@ -1,0 +1,118 @@
+@charset "UTF-8";
+body {
+  background: #eee; }
+
+/*顶部栏目 start*/
+header {
+  display: flex;
+  align-items: center;
+  height: 1.17315rem;
+  color: #fff;
+  background: #2395ff; }
+
+header i {
+  height: 1.16667rem;
+  width: 12%;
+  line-height: 1.16667rem;
+  text-align: center; }
+
+header .iconfont {
+  font-size: 0.46296rem; }
+
+header h3 {
+  width: 88%;
+  text-align: center;
+  font-size: 0.5rem;
+  font-weight: bold; }
+
+/*顶部栏目 end*/
+/*列表 start*/
+section {
+  background: #fff;
+  padding: 0.37037rem 0.07407rem 0.27778rem 0.37037rem; }
+
+section .order-info {
+  display: flex;
+  padding-left: 0.18519rem; }
+
+section .order-info .text {
+  display: flex;
+  justify-content: space-between; }
+
+section .order-info .text h3 {
+  padding-left: 0.18519rem;
+  font-size: 0.40741rem;
+  font-weight: bold; }
+
+section .order-info .text h3 span {
+  margin: 0 0.18519rem; }
+
+section .order-info .text p {
+  color: #518fdf; }
+
+section .order-info .time {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0.18519rem;
+  margin-top: 0.09259rem; }
+
+section .order-info .time span {
+  color: #518fdf; }
+
+section .price {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 1.66667rem; }
+
+section .price h3 {
+  font-weight: bold;
+  font-size: 0.46296rem;
+  color: #999; }
+
+section .price span {
+  padding-right: 0.18519rem; }
+
+/*列表 end*/
+/*底部导航 start*/
+.footerTab {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  height: 1.33333rem;
+  width: 10rem;
+  background: #fff; }
+
+.footerTab a {
+  width: 25%;
+  text-align: center; }
+
+.footerTab a i {
+  display: inline-block;
+  height: 0.52778rem;
+  width: 0.52778rem;
+  text-align: center; }
+
+.footerTab a .icon-eleme {
+  margin-right: 0.18519rem;
+  font-size: 0.83333rem;
+  color: #aaa; }
+
+.footerTab a .icon-found {
+  margin-bottom: 0.07407rem;
+  font-size: 0.46296rem;
+  color: #aaa; }
+
+.footerTab a .icon-order {
+  margin-bottom: 0.07407rem;
+  font-size: 0.46296rem;
+  color: #aaa; }
+
+.footerTab a .icon-mine {
+  margin-bottom: 0.07407rem;
+  font-size: 0.46296rem;
+  color: #aaa; }
+
+/*底部导航 end*/
+
+/*# sourceMappingURL=order.css.map */

@@ -1,0 +1,193 @@
+@charset "UTF-8";
+body {
+  background: #eee; }
+
+/*顶部栏目 start*/
+header {
+  display: flex;
+  align-items: center;
+  height: 1.17315rem;
+  color: #fff;
+  background: #2395ff; }
+
+header i {
+  height: 1.16667rem;
+  width: 12%;
+  line-height: 1.16667rem;
+  text-align: center; }
+
+header .iconfont {
+  font-size: 0.46296rem; }
+
+header h3 {
+  width: 88%;
+  text-align: center;
+  font-size: 0.5rem;
+  font-weight: bold; }
+
+/*顶部栏目 end*/
+/*头部 start*/
+.topbar {
+  display: flex;
+  align-items: center;
+  padding: 0.66667rem 0.4rem;
+  background: #2395ff;
+  color: #fff; }
+
+.topbar .head {
+  height: 1.6rem;
+  line-height: 1.6rem;
+  width: 1.6rem;
+  text-align: center;
+  border-radius: 50%;
+  background: #fff; }
+
+.topbar .head .iconfont {
+  font-size: 1.75926rem;
+  color: #ddd; }
+
+.topbar .text {
+  width: 80%;
+  padding-left: 0.37037rem; }
+
+.topbar .text h3 {
+  line-height: 0.74074rem;
+  padding-bottom: 0.18519rem;
+  font-size: 0.51852rem;
+  font-weight: bold; }
+
+.topbar .text p {
+  font-size: 0.27778rem; }
+
+.topbar .arrow {
+  font-size: 0.46296rem; }
+
+/*头部 end*/
+/*红包 start*/
+.bag {
+  display: flex; }
+
+.bag a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.22222rem;
+  width: 50%;
+  border-right: 1px solid #eee;
+  background: #fff; }
+
+.bag a i {
+  display: inline-block;
+  height: 0.69333rem;
+  width: 0.69333rem;
+  text-align: center;
+  line-height: 0.69333rem;
+  font-size: 0.37037rem;
+  border-radius: 50%;
+  color: #fff; }
+
+.bag a .icon-red-bag {
+  background: #ff5f3e; }
+
+.bag a .icon-gold {
+  background: #6ac20b; }
+
+.bag a .text {
+  padding-top: 0.16667rem; }
+
+/*红包 end*/
+/*我的地址 start*/
+.address {
+  height: 1.18519rem;
+  margin-top: 0.26667rem;
+  background: #fff; }
+
+.address a {
+  display: block;
+  display: flex;
+  align-items: center;
+  height: 1.18519rem;
+  font-size: 0.44444rem; }
+
+.address a i {
+  height: 0.53704rem;
+  width: 0.48148rem;
+  margin: 0 0.27778rem 0 0.44444rem;
+  /*background: green;*/ }
+
+.address a .icon-loca {
+  font-size: 0.51852rem;
+  color: #4aa5f0; }
+
+.address a .icon-shop {
+  color: #94d94a;
+  font-size: 0.44444rem; }
+
+.address a .icon-liwu {
+  color: #fc7b53;
+  font-size: 0.5rem; }
+
+.address a .icon-kefu {
+  font-size: 0.44444rem;
+  color: #4aa5f0; }
+
+.address a .icon-eleme {
+  font-size: 0.83333rem;
+  color: #3cabff;
+  margin-left: 0.27778rem;
+  margin-bottom: 0.37037rem; }
+
+.address a p {
+  display: flex;
+  justify-content: space-between;
+  width: 88%; }
+
+/*我的地址 end*/
+/*分享 start*/
+.share {
+  margin-top: 0; }
+
+/*分享 end*/
+/*底部导航 start*/
+.footerTab {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  height: 1.33333rem;
+  width: 10rem;
+  background: #fff; }
+
+.footerTab a {
+  width: 25%;
+  text-align: center; }
+
+.footerTab a i {
+  display: inline-block;
+  height: 0.52778rem;
+  width: 0.52778rem;
+  text-align: center; }
+
+.footerTab a .icon-eleme {
+  margin-right: 0.18519rem;
+  font-size: 0.83333rem;
+  color: #aaa; }
+
+.footerTab a .icon-found {
+  margin-bottom: 0.07407rem;
+  font-size: 0.46296rem;
+  color: #aaa; }
+
+.footerTab a .icon-order {
+  margin-bottom: 0.07407rem;
+  font-size: 0.46296rem;
+  color: #aaa; }
+
+.footerTab a .icon-mine {
+  margin-bottom: 0.07407rem;
+  font-size: 0.46296rem;
+  color: #aaa; }
+
+/*底部导航 end*/
+
+/*# sourceMappingURL=me.css.map */

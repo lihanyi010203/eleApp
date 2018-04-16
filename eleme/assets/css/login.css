@@ -1,0 +1,127 @@
+@charset "UTF-8";
+body {
+  background: #fafafa; }
+
+/*顶部 start*/
+header {
+  display: flex;
+  height: 1.16667rem;
+  line-height: 1.16667rem;
+  background: #009eff;
+  color: #fff; }
+
+header i {
+  margin-left: 0.18519rem; }
+
+header h3 {
+  font-size: 0.46296rem;
+  font-weight: bold;
+  margin-left: 0.37037rem; }
+
+header .method {
+  margin-right: 0.37037rem;
+  font-size: 0.46296rem;
+  font-weight: bold; }
+
+header a {
+  color: #fff;
+  margin-left: 5.55556rem; }
+
+/*顶部 end*/
+/*表单 start*/
+form {
+  margin-top: 0.37037rem;
+  padding: 0 0.27778rem; }
+
+form .login-phone {
+  padding: 0 0.33333rem;
+  height: 1.2963rem;
+  background-color: #fff;
+  border-top: 1px solid #e9e9e9;
+  border-bottom: 1px solid #e9e9e9;
+  margin-bottom: 0.0463rem; }
+
+form .login-phone input {
+  height: 100%;
+  width: 5.09259rem;
+  border: none;
+  font-size: 0.46296rem;
+  text-indent: 0.27778rem; }
+
+form .login-phone button {
+  float: right;
+  width: 2.77778rem;
+  height: 1.11111rem;
+  background-color: #d3d8cf;
+  border: none;
+  font-size: 0.42593rem;
+  color: #fff;
+  font-weight: bold;
+  margin-top: 0.09259rem; }
+
+form .login-text {
+  padding: 0.40741rem 0.33333rem;
+  line-height: 0.55556rem;
+  color: #6f6f6f; }
+
+form .login-text a {
+  color: #0e84ba; }
+
+form .login-sub {
+  padding: 0.24074rem; }
+
+form .login-sub .submit {
+  height: 1.33333rem;
+  background-color: #48c25a;
+  width: 100%;
+  font-size: 0.46296rem;
+  color: #fff;
+  font-weight: bold; }
+
+/*表单 end*/
+/*底部 start*/
+footer {
+  position: absolute;
+  bottom: 0;
+  height: 2.96296rem;
+  width: 100%;
+  padding: 0.64815rem 0; }
+
+footer section {
+  position: relative;
+  width: 3.42593rem;
+  height: 0.01852rem;
+  background-color: #cbcbcb;
+  margin: 0 auto;
+  text-align: center; }
+
+footer section .line-text {
+  position: absolute;
+  top: -0.22222rem;
+  left: 50%;
+  margin-left: -1.11111rem;
+  width: 2.22222rem;
+  height: 0.46296rem;
+  line-height: 0.46296rem;
+  background-color: #fff;
+  color: #989898; }
+
+footer ul {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 0.46296rem; }
+
+footer ul li {
+  width: 1.38889rem;
+  text-align: center; }
+
+footer ul li img {
+  width: 1.38889rem; }
+
+footer ul li p {
+  color: #979797;
+  margin-top: 0.27778rem; }
+
+/*底部 end*/
+
+/*# sourceMappingURL=login.css.map */

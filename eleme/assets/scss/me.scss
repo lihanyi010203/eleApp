@@ -1,0 +1,196 @@
+@function torem($px) {
+    @return $px / 108px * 1rem;
+}
+body{
+	background: #eee;
+}
+
+/*顶部栏目 start*/
+header{
+	display: flex;
+	align-items: center;
+	height: torem(126.7px);
+	color: #fff;
+	background: rgb(35, 149, 255);
+}
+header i{
+	height: torem(126px);
+	width: 12%;
+	line-height: torem(126px);
+	text-align: center;
+}
+header .iconfont{
+	font-size: torem(50px);
+}
+header h3{
+	width: 88%;
+	text-align: center;
+	font-size: torem(54px);
+	font-weight: bold;
+}
+
+/*顶部栏目 end*/
+/*头部 start*/
+.topbar{
+	display: flex;
+	align-items: center;
+	padding:torem(72px) torem(43.2px);
+	background: #2395ff;
+	color: #fff;
+}
+.topbar .head{
+	height: torem(172.8px);
+	line-height: torem(172.8px);
+	width: torem(172.8px);
+	text-align: center;
+	border-radius: 50%;
+	background: #fff;
+}
+.topbar .head .iconfont{
+	font-size: torem(190px);
+	color: #ddd;
+}
+.topbar .text{
+	width: 80%;
+	padding-left: torem(40px);
+}
+.topbar .text h3{
+	line-height: torem(80px);
+	padding-bottom: torem(20px);
+	font-size: torem(56px);
+	font-weight: bold;
+}
+.topbar .text p{
+	font-size: torem(30px);
+}
+.topbar .arrow{
+	font-size: torem(50px);
+}
+/*头部 end*/
+/*红包 start*/
+.bag{
+	display: flex;
+}
+.bag a{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: torem(240px);
+	width: 50%;
+	border-right: 1px solid #eee;
+	background: #fff;
+}
+.bag a i{
+	display: inline-block;
+	height: torem(74.88px);
+	width: torem(74.88px);
+	text-align: center;
+	line-height: torem(74.88px);
+	font-size: torem(40px);
+	border-radius: 50%;
+	color: #fff;
+}
+.bag a .icon-red-bag{
+	background: rgb(255, 95, 62);
+}
+.bag a .icon-gold{
+	background: rgb(106, 194, 11);
+}
+.bag a .text{
+	padding-top: torem(18px);
+}
+/*红包 end*/
+/*我的地址 start*/
+.address{
+	height: torem(128px);
+	margin-top: torem(28.8px);
+	background: #fff;
+}
+.address a{
+	display: block;
+	display: flex;
+	align-items: center;
+	height: torem(128px);
+	font-size: torem(48px);
+}
+.address a i{
+	height: torem(58px);
+	width: torem(52px);
+	margin:0 torem(30px) 0 torem(48px);
+	/*background: green;*/
+}
+.address a .icon-loca{
+	font-size: torem(56px);
+	color: rgb(74, 165, 240);
+}
+.address a .icon-shop{
+	color: rgb(148, 217, 74);
+	font-size: torem(48px);
+}
+.address a .icon-liwu{
+	color: rgb(252, 123, 83);
+	font-size: torem(54px);
+}
+.address a .icon-kefu{
+	font-size: torem(48px);
+	color: rgb(74, 165, 240);
+}
+.address a .icon-eleme{
+	font-size: torem(90px);
+	color: rgb(60, 171, 255);
+	margin-left: torem(30px);
+	margin-bottom: torem(40px);
+}
+.address a p{
+	display: flex;
+	justify-content: space-between;
+	width: 88%;
+}
+/*我的地址 end*/
+/*分享 start*/
+.share{
+	margin-top: 0;
+}
+/*分享 end*/
+/*底部导航 start*/
+.footerTab {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  height: 1.33333rem;
+  width: 10rem;
+  background: #fff; }
+
+.footerTab a {
+  width: 25%;
+  text-align: center;}
+
+.footerTab a i {
+  display: inline-block;
+  height: 0.52778rem;
+  width: 0.52778rem;
+  text-align: center;}
+.footerTab a .icon-eleme{
+	margin-right: torem(20px);
+	font-size: torem(90px);
+	color: #aaa;
+}
+.footerTab a .icon-found{
+	margin-bottom: torem(8px);
+	font-size: torem(50px);
+	color: #aaa;
+}
+.footerTab a .icon-order{
+	margin-bottom: torem(8px);
+	font-size: torem(50px);
+	color: #aaa;
+}
+.footerTab a .icon-mine{
+	margin-bottom: torem(8px);
+	font-size: torem(50px);
+	color: #aaa;
+}
+/*底部导航 end*/
+
+
